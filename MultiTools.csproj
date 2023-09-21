@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -29,10 +29,11 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="QuickTools">
-      <HintPath>..\..\..\QuickTools\bin\Release\QuickTools.dll</HintPath>
+    <Reference Include="QuickTools, Version=2.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\QuickTools\bin\Release\QuickTools.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -40,11 +41,6 @@
     <Compile Include="Init\Program.cs" />
     <Compile Include="Menu\MainMenu.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Init\" />
-    <Folder Include="Menu\" />
-    <Folder Include="Tools\" />
-    <Folder Include="Tools\Explorer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

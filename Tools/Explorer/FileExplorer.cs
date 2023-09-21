@@ -79,23 +79,26 @@ scape
         {
             this.Path = this.Path.Substring(0,this.Path.LastIndexOf(Get.Slash()));
         }
+
         private void Display()
         {
-                for(int item = 0; item < MaxHeigh; item++)
+            int max = this.Items.Count < this.MaxHeigh ? this.Items.Count : this.MaxHeigh; 
+                for(int item = 0; item < max; item++)
                 {
                     if(item == this.CurrentSelection)
                     {
-
+                        Get.Label($"{this.Items[item]}");
+                        Get.WriteL("");
                     }
-                    if (File.Exists(this.Items[item]))
+                    if (File.Exists(this.Items[item]) && item != this.CurrentSelection)
                     {
                         Get.Yellow(Get.FileNameFromPath(this.Items[item]));
                     }
-                    if (Directory.Exists(this.Items[item]))
+                    if (Directory.Exists(this.Items[item]) && item != this.CurrentSelection)
                     {
                         Get.Blue(Get.FolderFromPath(this.Items[item])+Get.Slash());
                     }
-            }
+                }
         }
         private void LoadItems()
         {
@@ -115,7 +118,7 @@ scape
         {
             
             Get.Blue(this.Path);
-            //this.Display(); 
+            this.Display(); 
             //this.DirectionHandeler();
          
 
