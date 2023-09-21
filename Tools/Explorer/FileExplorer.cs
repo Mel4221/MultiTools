@@ -115,8 +115,8 @@ scape
         {
             
             Get.Blue(this.Path);
-            this.Display(); 
-            this.DirectionHandeler();
+            //this.Display(); 
+            //this.DirectionHandeler();
          
 
             Get.Wait();

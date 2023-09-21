@@ -1,0 +1,17 @@
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/bin/Debug/MultiTools.exe
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/bin/Debug/MultiTools.pdb
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/obj/x86/Debug/MultiTools.csproj.AssemblyReference.cache
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/obj/x86/Debug/MultiTools.csproj.CoreCompileInputs.cache
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/obj/x86/Debug/MultiTools.exe
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/obj/x86/Debug/MultiTools.pdb
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/bin/Debug/QuickTools.dll
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/bin/Debug/QuickTools.xml
+/home/mel/Documents/csharp/MultiTools/Tools/MultiTools/obj/x86/Debug/MultiTools.csproj.CopyComplete
+/home/mel/Documents/csharp/MultiTools/bin/Debug/MultiTools.exe
+/home/mel/Documents/csharp/MultiTools/bin/Debug/MultiTools.pdb
+/home/mel/Documents/csharp/MultiTools/bin/Debug/QuickTools.xml
+/home/mel/Documents/csharp/MultiTools/obj/x86/Debug/MultiTools.csproj.AssemblyReference.cache
+/home/mel/Documents/csharp/MultiTools/obj/x86/Debug/MultiTools.csproj.CoreCompileInputs.cache
+/home/mel/Documents/csharp/MultiTools/obj/x86/Debug/MultiTools.csproj.CopyComplete
+/home/mel/Documents/csharp/MultiTools/obj/x86/Debug/MultiTools.exe
+/home/mel/Documents/csharp/MultiTools/obj/x86/Debug/MultiTools.pdb
